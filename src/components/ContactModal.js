@@ -5,20 +5,20 @@ import { HiMail } from "react-icons/hi";
 function ContactModal({closeModal}) {
 
   const groomContact = [
-    { person: "신랑 김신랑", phone: "01012345678" },
-    { person: "아버지 김아빠", phone: "01012345678" },
-    { person: "어머니 박엄마", phone: "01012345678" },
+    { person: "신랑 간정현", phone: "01012345678" },
+    { person: "아버지 간윤범", phone: "01012345678" },
+    { person: "어머니 곽순희", phone: "01012345678" },
   ];
 
   const brideContact = [
-    { person: "신부 이신부", phone: "01012345678" },
-    { person: "아버지 이아빠", phone: "01012345678" },
-    { person: "어머니 우엄마", phone: "01012345678" },
+    { person: "신부 김예리", phone: "01031709615" },
+    { person: "아버지 김태훈", phone: "01050219615" },
+    { person: "어머니 김순자", phone: "01093026976" },
   ];
 
 
   return (
-    <div className="modal">
+    <div className="modal" onClick={closeModal}>
       <div className="contact__content">
         <button onClick={closeModal} className="survey__btn-close">&times;</button>
         <div className='modal__account'>연락하기</div>

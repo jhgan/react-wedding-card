@@ -33,7 +33,7 @@ function Calendar() {
     useEffect(() => {
       const updateTimer = () => {
         const currentDate = new Date();
-        const targetDate = new Date('2025-09-06T13:00:00+0900');
+        const targetDate = new Date('2025-12-07T13:00:00+0900');
         const timeDiff = targetDate - currentDate;
   
         if (timeDiff > 0) {
@@ -60,7 +60,7 @@ function Calendar() {
   return (
     <div className='container calendar'>
       <img src={flower} className="flower" alt='flower'/>
-      <h3>2025년 9월 6일 토요일 오후 1시</h3>
+      <h3>2025년 12월 7일 일요일 오후 1시</h3>
       <div className='calendar__line'></div>
       <div className="calendar__body">
         <div className="calendar__weekdays">

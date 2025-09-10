@@ -49,7 +49,6 @@ function App() {
       <ImgGallery />
       <Location />
       {/* <Submit openModal={openModal}/> */}
-      <Quiz/>
       <Contact />
       <Comment />
       <Footer />

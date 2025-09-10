@@ -4,8 +4,8 @@ import kakaoMapIcon from '../images/kakao.png';
 
 function Location() {
   const mapRef = useRef(null);
-  const lat = 37.504038; // 위도
-  const lng = 127.042777; // 경도
+  const lat = 37.565045; // 위도
+  const lng = 126.995636; // 경도
 
   useEffect(() => {
     const { naver } = window;
@@ -23,7 +23,7 @@ function Location() {
   }, []);
 
   const gotoNavermap = () => {
-    window.location.href = ''
+    window.location.href = 'https://naver.me/5z52xffj'
   }
 
   const gotoKakaomap = () => {
