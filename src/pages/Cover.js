@@ -34,8 +34,8 @@ function Cover() {
         <GoHeartFill className='cover__icon-heart' size="0.8em"/>
         <div>김예리</div>
         </div>
-        <div className='cover__date'>2025년 12월 7일, 토요일 낮 1시</div>
-        <div className='cover__place'>상록아트홀 그랜드볼룸홀</div>
+        <div className='cover__date'>2025년 9월 7일, 토요일 낮 1시</div>
+        <div className='cover__place'>PJ호텔 헤스티아홀</div>
         <div className='cover__line'></div>
         <div className='cover__icon-box'>
           <TbPlayerTrackPrevFilled size="1.5em"/>
